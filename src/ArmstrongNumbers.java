@@ -10,7 +10,7 @@ public class ArmstrongNumbers {
             int sum = 0;
             a = i;
 
-            if(a > 0) {
+            while(a > 0) {
                 b = a % 10;
                 sum = sum + (b * b * b);
                 a = a /10;
