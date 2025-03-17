@@ -2,10 +2,10 @@ public class ArmstrongNumbers {
 
     public static void main(String[] args) {
 
-        int a;  // Armstrongov broj
-        int b;  // svaki broj
+        int a;
+        int b;
 
-        for (int i = 1; i < 10000; i++) {
+        for (int i = 0; i < 10000; i++) {
 
             int sum = 0;
             a = i;
@@ -13,8 +13,13 @@ public class ArmstrongNumbers {
             if(a > 0) {
                 b = a % 10;
                 sum = sum + (b * b * b);
-                System.out.println(sum);
+                a = a /10;
             }
+
+            if(sum == i) {
+                System.out.println(i);
+            }
+
         }
     }
 }
