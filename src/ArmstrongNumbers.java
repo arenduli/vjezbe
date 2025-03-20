@@ -1,3 +1,5 @@
+// program koji ispisuje sve Armstrongove brojeve (= sumi kubova svojih znamenaka) manje od 10000
+
 public class ArmstrongNumbers {
 
     public static void main(String[] args) {
