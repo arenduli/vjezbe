@@ -1,6 +1,7 @@
+// program koji ucitava ulazni string i okrene redoslijed rijeci u tom stringu
+
 public class ReverseWordsInString {
 
-    // program koji ucitava ulazni string i okrene redoslijed rijeci u tom stringu
     public static void main(String[] args) {
 
         String initialString = "Danas je cetvrtak";
