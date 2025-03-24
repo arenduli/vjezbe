@@ -1,7 +1,7 @@
 // program koji ispisuje prvih 100 prirodnih brojeva, od kojih za brojeve djeljive s 3 ispisuje "Fizz",
 // za brojeve djeljive s 5 ispisuje "Buzz", a za brojeve djeljive s 3 i 5 ispisuje "FizzBuzz"
 
-public class FizzBuzz {
+public class FizzBuzzNumbers {
 
     public static void main(String[] args) {
 
