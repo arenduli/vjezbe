@@ -14,7 +14,7 @@ public class Temperature {
         System.out.println("Temperatura u F: " + tempFaranheit);
 
         double tempKelvin = celsius + 273.15;
-        System.out.println("Temperatura u K :" + tempKelvin);
+        System.out.println("Temperatura u K: " + tempKelvin);
 
         input.close();
     }
