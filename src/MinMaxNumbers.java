@@ -22,5 +22,7 @@ public class MinMaxNumbers {
 
         System.out.println("Najmanji broj: " + min);
         System.out.println("Najveci broj: " + max);
+
+        input.close();
     }
 }
